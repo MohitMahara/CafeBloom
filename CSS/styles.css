@@ -357,7 +357,7 @@ input[type="date"] {
 
 /* bg2image */
 .bg2image {
-    background: url('assets/parallax-1.jpg');
+    background-image : url('assets/parallax-1.jpg');
     height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -509,7 +509,7 @@ input[type="date"] {
 /* bg3Image  & Flavour section*/ 
 
 .bg3image{
-    background-image:url('assets/parallax-2.jpg');
+    background-image: url('assets/parallax-2.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -797,7 +797,7 @@ footer{
 }
 
 .sub-footer{
-    background: url('assets/asset 26.jpeg');
+    background-image: url('assets/asset 26.jpeg');
     height: 87%;
     width: 100%;
     background-size: cover;
