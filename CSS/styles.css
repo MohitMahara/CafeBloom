@@ -357,7 +357,7 @@ input[type="date"] {
 
 /* bg2image */
 .bg2image {
-    background-image : url('/assets/parallax-1.jpg');
+    background-image : url('assets/parallax-1.jpg');
     height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -410,7 +410,7 @@ input[type="date"] {
 
 
 .ofc-text {
-    background-image: url('/assets/slider-1.jpg');
+    background-image: url('assets/slider-1.jpg');
     background-size: cover;
     height: 262px;
     max-width: 40%;
@@ -509,7 +509,7 @@ input[type="date"] {
 /* bg3Image  & Flavour section*/ 
 
 .bg3image{
-    background-image: url('/assets/parallax-2.jpg');
+    background-image: url('assets/parallax-2.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -751,7 +751,7 @@ input[type="date"] {
 }
 
 .photo-1{
-    background-image: url('/assets/gallery-1.jpg');
+    background-image: url('assets/gallery-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     grid-row: 1/3;
@@ -759,19 +759,19 @@ input[type="date"] {
 }
 
 .photo-2{
-    background-image: url('/assets/gallery-2.jpg');
+    background-image: url('assets/gallery-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .photo-3{
-    background-image: url('/assets/gallery-3.jpg');
+    background-image: url('assets/gallery-3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .photo-4{
-    background-image: url('/assets/gallery-4.jpg');
+    background-image: url('assets/gallery-4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     grid-column: 5/6;
@@ -779,13 +779,13 @@ input[type="date"] {
 }
 
 .photo-5{
-    background-image: url('/assets/gallery-5.jpg');
+    background-image: url('assets/gallery-5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .photo-6{
-    background-image: url('/assets/gallery-6.jpg');
+    background-image: url('assets/gallery-6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -797,7 +797,7 @@ footer{
 }
 
 .sub-footer{
-    background-image: url('/assets/asset 26.jpeg');
+    background-image: url('assets/asset 26.jpeg');
     height: 87%;
     width: 100%;
     background-size: cover;
