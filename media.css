@@ -1,0 +1,435 @@
+@media screen and (max-width:1024px) {
+    .nav-section {
+        padding: 10px 30px;
+    }
+
+    .bgImage1 .title-text {
+        font-size: 44px;
+        letter-spacing: 1px;
+    }
+
+    .title {
+        top: 35%;
+        left: 15%;
+        width: 70%;
+    }
+
+    .title p {
+        font-size: 14px;
+    }
+
+    .calender-icon-div,
+    .time-icon-div,
+    .person-icon-div {
+        height: 50px;
+    }
+
+    .book .book-btn {
+        padding: 11px 10px;
+        height: 30px;
+        width: 131px;
+        display: flex;
+        align-items: center;
+    }
+
+    .slot-container {
+        padding: 0px 45px;
+        gap: 10px;
+    }
+
+    .mini-service {
+        padding: 10px 50px;
+    }
+
+    .offer-section .container {
+        padding: 50px 47px;
+        gap: 30px;
+
+    }
+
+    .ofc {
+        padding: 50px;
+    }
+
+    .ofc-text {
+        height: 240px;
+    }
+
+    .flavour-section {
+        padding: 80px 30px;
+    }
+
+    .product-list {
+        width: 90%;
+        margin-bottom: 80px;
+    }
+
+    .sub-footer-container .opening-hours {
+        width: 30%;
+    }
+
+    .form-control {
+        width: 76%;
+        height: 60%;
+        margin-block: 50px;
+    
+
+    }
+
+    .empty-div .btn {
+        width: 18%;
+        padding-block: 20px;
+        font-size: 12px;
+    }
+}
+
+
+/*  Devices width:  768px */
+
+@media screen and (max-width: 768px) {
+
+    .item-link {
+        font-size: 12px;
+    }
+
+    .nav-section {
+        padding: 15px 20px;
+    }
+
+    .brand-name h2 {
+        font-size: 20px;
+    }
+
+    .nav-list {
+        gap: 30px;
+    }
+
+    .bgImage1 .title-text {
+        font-size: 34px;
+
+    }
+
+    .slot-container {
+        flex-wrap: wrap;
+        padding: 0px 10px;
+    }
+
+    .book {
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .flavour-list {
+        flex-direction: column;
+    }
+
+    .flavour-name {
+        width: 100%;
+    }
+
+    .left-list,
+    .right-list {
+        width: 100%;
+    }
+
+    .flavour-price .horizentical-line {
+        width: 350px;
+    }
+
+    footer {
+        height: 100%
+    }
+
+    .sub-footer{
+        height: 90%;
+    }
+    .sub-footer-container {
+        padding: 30px;
+    }
+
+    .flavour-header h2 {
+        font-size: 25px;
+        width: 65%;
+
+    }
+
+    .offer-section .container {
+        flex-wrap: wrap;
+    }
+
+    .offer-section .offer-item {
+        width: 40%;
+    }
+
+    .ofc-text {
+        height: 208px;
+        padding-block: 15px;
+        max-width: 35%;
+    }
+
+    .ofc-text h2 {
+        font-size: 20px;
+    }
+
+    .ofc-text p {
+        font-size: 12px;
+        padding-bottom: 18px;
+    }
+
+    .form-control {
+        width: 80%;
+        height: 76%;
+    }
+
+    .form-container {
+        height: 100%;
+    }
+
+    .cart-heading {
+        font-size: 30px;
+    }
+
+
+    .empty-div .btn {
+        width: 21%;
+        padding-block: 15px;
+    }
+
+    .footer-div{
+        height: 10%;
+        padding-block: 10px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .nav-list {
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        padding-block: 20px;
+        gap: 20px;
+        left: -100%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-list.display{
+     left: 0;
+    }
+
+    .nav-toggler{
+        display: inherit;
+    }
+
+    div .line{
+        display: none;
+    }
+
+    .item-link{
+     font-size: 16px;
+     color: black;
+    }
+
+    .bgImage1 {
+        height: 100vh;
+
+    }
+
+    .bgImage1 .title {
+        width: 90%;
+        left: 5%;
+    }
+
+    .bgImage1 .title-text {
+        font-size: 25px;
+
+    }
+
+    .bgImage1 .styling-text {
+        font-size: 50px;
+    }
+
+    .title p{
+        font-size: 13px;
+    }
+
+    .flavour-name{
+        width: 65%;
+    }
+
+    .flavour-dis .new{
+        height: 18px;
+        padding: 7px 14px;
+    }
+
+    .slot-booking-section{
+        padding-block: 0px;
+    }
+
+    .slot-header{
+        width: 85%;
+    }
+
+    .slot-header h2{
+        font-size: 30px;
+    }
+
+    .slot-header p{
+        font-size: 20px;
+    }
+
+    .slot-container{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #person-list{
+        width: 250px;
+    }
+
+    #time-list{
+        width: 258px;
+    }
+
+    input[type= date]{
+        width: 242px;
+    }
+
+    .mini-service{
+        flex-direction: column;
+        padding: 10px 49px;
+    }
+
+    .mini-service .card{
+        max-width: 100%;
+    }
+
+    .offer-section .offer-item{
+        width: 100%;
+    }
+
+    .ofc{
+        flex-direction: column-reverse;
+    }
+
+    .ofc-text{
+        max-width: 100%;
+        height: 234px;
+    }
+
+    .flavour-header h2{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .flavour-header p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .product-section{
+        padding-top: 35px;
+    }
+
+    .product-header p{
+        font-size: 20px;
+    }
+
+    .product-header h3{
+        font-size: 28px;
+    }
+
+    .product-list{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .product-list .product-item{
+        width: 44%;
+    }
+
+     footer{
+        height: 100%;
+     }
+
+     .sub-footer{
+        height: 90%;
+        padding-bottom: 30px;
+     }
+    .sub-footer-container {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+   .sub-footer-container .opening-hours{
+        width: 90%;
+        padding-bottom: 50px;
+    }
+     
+    .footer-div{
+        height: 10%;
+        padding-block: 10px;
+    }
+    .footer-div p{
+        font-size: 10px;
+    }
+
+    .other-locations p,
+    .Contact-Us p{
+        font-size: 12px;
+    }
+
+    .form-container{
+        height: 100%;
+    }
+
+    .name-section,
+    .phone-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-control{
+        width: 75%;
+        height: 100%;
+    }
+
+     .form-container h1{
+        font-size: 35px;
+     }
+    
+    input[type= text],
+    input[type= number],
+    input[type=email]{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 22px;
+    }
+
+    .cart-heading{
+        font-size: 24px;
+        width: 75%;
+    }
+
+    .empty-div .para{
+        font-size: 14px;
+    }
+
+    .empty-div .btn{
+        width: 41%;
+    }
+
+    .submit-btn{
+        margin-block: 15px;
+    }
+
+    .Contact-Us,
+    .other-locations{
+        text-align: center;
+    }
+}

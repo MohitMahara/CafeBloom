@@ -1,0 +1,149 @@
+#menu{
+    background-image: none;
+    padding-block: 40px;
+    height: 100%;
+}
+
+.flavour-list{
+flex-wrap: wrap;
+}
+
+.flavour{
+    width: 27%;
+    height: 140px;
+    background-color:#f2f2f2;
+    padding: 30px 20px 20px;
+    border-radius: 12px;
+    color: black;
+    gap: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+
+.flavour:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.flavour-section{
+    padding:0px;
+    width: 85%;
+    margin: auto;
+}
+
+.flavour-img {
+    border-radius: 50%;
+}
+
+.flavour-img img {
+    border-radius: 50%;
+}
+
+.price{
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.flavour-name h3{
+    font-size: 18px;
+}
+
+.flavour-name p{
+    font-size: 14px;
+}
+
+.price p{
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+}
+
+
+.add-btn{
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: grey;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.add-btn:active{
+    transform: scale(0.95);
+}
+
+.add-btn:hover{
+    background-color: #30271c;
+}
+
+.flavour-header p{
+    font-size: 30px;
+}
+
+
+/* Media Query for this page only  */
+
+@media screen and (max-width:1024px) {
+ 
+
+
+    .flavour-section{
+        padding: 0px 30px !important;
+    }
+
+    .flavour-list .flavour{
+        width: 42%;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+ 
+
+   
+    .flavour-list{
+        flex-direction: row !important;
+
+    }
+
+    .flavour-header h2{
+        width: 70% !important;
+    }
+
+    .flavour-list .flavour{
+        width: 40%;
+    }
+
+    .add-btn{
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+
+    .price p{
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media screen and (max-width:425px) {
+
+
+ .flavour-list .flavour{
+    width: 100%;
+ }
+  
+ .flavour-header h2{
+    width: 100% !important;
+}
+ 
+.flavour-header p{
+    font-size: 20px;
+}
+
+
+}
